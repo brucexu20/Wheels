@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ellipsis demo</title>
+    <style>
+        .ellipsis {
+            overflow: hidden;
+        }
+        .ellipsis:before {
+            content: "";
+            float: left;
+            width: 1px;
+            height: 100%;
+        }
+        .ellipsis > div {
+            float: right;
+            width: 100%;
+            margin-left: -1px;
+        }
+        .ellipsis:after {
+            content: "\02026";
+            float: right;
+            position: relative;
+            left: 100%;
+            width: 3em;
+            margin-left: -3em;
+            padding-right: 1px;
+            top: -1.5em;
+            text-align: right;
+            background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(white), color-stop(50%, white));
+            background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+            background: -o-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+            background: -ms-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+            background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+        }
+
+        .demo {
+            height: 120px;
+            border: 1px solid red;
+            line-height: 1.5;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ellipsis demo">
+        <div>这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子，这是一个多行文本省略号的例子</div>
+    </div>
+</body>
+</html>
