@@ -1,2 +1,2 @@
-# Swipe
-Swipe module
+# 滑动控件
+左右滑动控件，用于移动端

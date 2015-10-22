@@ -1,2 +1,2 @@
-# PullRefresh
-PullRefresh module
+# 下拉刷新
+下拉刷新控件，用于移动端

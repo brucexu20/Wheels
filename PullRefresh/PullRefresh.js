@@ -2,7 +2,7 @@
  * @file webapp下拉刷新控件
  * @author Bruce (brucexu20@gmail.com)
  */
-(function (root, factory) {
+(function (global, factory) {
     if (typeof define === 'function' && define.amd) {
         define(factory());
     }
@@ -10,7 +10,7 @@
         exports = module.exports = factory();
     }
     else {
-        root.PullRefresh = factory();
+        global.PullRefresh = factory();
     }
 })(this, function () {
     // 当滑动超过10px判断为开始了滑动操作

@@ -1,4 +1,4 @@
-(function(root, factory) {
+(function(global, factory) {
     if (typeof define === 'function' && define.amd) {
         define(factory());
     }
@@ -6,7 +6,7 @@
             exports = module.exports = factory();
     }
     else {
-        root.Swipe = factory();
+        global.Swipe = factory();
     }
 })(this, function() {
     // 当滑动超过10px判断为开始了滑动操作
