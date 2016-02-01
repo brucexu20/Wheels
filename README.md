@@ -1,2 +1,6 @@
 # 重复造轮子
-虽说不要重复造轮子，但在造轮子的过程中也能学到很多东西。此处的"轮子"仅用于学习。
+平常所造的一些前端的轮子，包括：
+*  Promise - 一个Promise实现，可通过[promises-aplus-tests](https://github.com/promises-aplus/promises-tests/)测试
+*  Events - 自定义事件
+*  Multiline_ellipsis - CSS实现多行文字省略号
+
